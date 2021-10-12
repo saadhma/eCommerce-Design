@@ -33,7 +33,7 @@ class UserHomeScreen extends StatelessWidget {
                   Row(
                     children: [
                       SizedBox(width: 10.sp),
-                      Text("Our Products",
+                      Text("Our Featured Products",
                           style: TextStyle(
                               color: Colors.black,
                               fontSize: 15.sp,
