@@ -13,11 +13,11 @@ class DesignPage extends StatelessWidget {
         child: Stack(
           children: [
             Padding(
-              padding: EdgeInsets.only(top: 50.0),
+              padding: const EdgeInsets.only(top: 50.0),
               child: Container(
                 width: double.infinity,
                 height: double.infinity,
-                decoration: BoxDecoration(
+                decoration: const BoxDecoration(
                   color: Colors.white,
                   borderRadius: BorderRadius.only(
                     topLeft: Radius.circular(15.0),
